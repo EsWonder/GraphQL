@@ -45,13 +45,12 @@ http://localhost:4000/graphql
 ###Run the Project with Docker
 ```Build the Docker image:
 ```
-bash
-
+```bash
 docker build -t graphql-hello-world .
+```
 Run the container:
 
 ```bash
-
 docker run -p 4000:4000 graphql-hello-world
 Access the GraphQL Playground at:
 ```
